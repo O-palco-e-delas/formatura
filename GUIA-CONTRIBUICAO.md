@@ -3,7 +3,7 @@
 Olá, alunas do programa "O Palco é Delas"! 👋
 
 Este site é **open source** e cada uma de vocês pode atualizar suas próprias informações. Atualmente o site possui placeholders com seus nomes reais, mas as informações profissionais e palestras são genéricas.
-
+...
 ## 🚀 Como Contribuir:
 
 1. **Fork** do repositório no GitHub
