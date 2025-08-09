@@ -17,16 +17,16 @@ const speakers = [
     {
         id: 1,
         name: "Midian Brandão",
-        role: "Tech Lead",
+        role: "Software Engineer",
         company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
+        bio: "Pós-graduada em Análise e Proteção de Dados, atuou em diferentes multinacionais, em projetos de Customer Experience, análise de mercado, gestão de stakeholders e transformação digital.",
         expertise: ["IA", "Machine Learning", "Python"],
         social: {
-            linkedin: "#",
+            linkedin: "http://linkedin.com/in/midian-brandao/",
             twitter: "#",
             github: "#"
         },
-        talks: ["Inteligência Artificial e o Futuro do Trabalho"]
+        talks: ["Segurança cibernética na era da Inteligência Artificial"]
     },
     {
         id: 2,
@@ -86,17 +86,17 @@ const speakers = [
     },
     {
         id: 6,
-        name: "Bianca Cardoso",
-        role: "Frontend Developer",
-        company: "ISH Tecnologia",
-        bio: "Desenvolvedora com mais de 6 anos de experiência, apaixonada por vue.js e com formação em ciência da computação. Trabalho em uma empresa de cibersegurança e participo de iniciativas para mulheres em tecnologia que promovem diversidade na área.",
-        expertise: ["Frontend", "Vue", "Python", "Cibersegurança"],
+        name: "Bianca Pinto Cardoso",
+        role: "UX Designer",
+        company: "A definir",
+        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
+        expertise: ["UX", "Design", "Research"],
         social: {
-            linkedin: "https://www.linkedin.com/in/biancacardosop/",
-            twitter: "https://x.com/Biancaacardoso",
-            github: "https://github.com/biigue"
+            linkedin: "#",
+            twitter: "#",
+            github: "#"
         },
-        talks: ["Descomplicando o Frontend com Vue.js"]
+        talks: ["UX/UI Design: Criando Experiências Incríveis"]
     },
     {
         id: 7,
@@ -294,7 +294,6 @@ const speakers = [
     }
 ];
 
-
 // ============================================================================
 // 🎤 DADOS DAS PALESTRAS
 // ============================================================================
@@ -306,7 +305,6 @@ Array com todas as 20 palestras do evento, divididas em 2 blocos:
 IMPORTANTE: Todas as palestras começam como placeholders (isPlaceholder: true)
 para que cada palestrante possa personalizar sua apresentação.
 */
-
 const talks = [
     // ========================================================================
     // 🌅 BLOCO 1 - MANHÃ (10:10 - 12:40)
@@ -314,12 +312,12 @@ const talks = [
     {
         id: 1,
         time: "10:10 - 10:25",
-        title: "Título da palestra será definido pela palestrante",
+        title: "Segurança cibernética na era da Inteligência Artificial",
         speaker: "Midian Brandão",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        description: " Ameaças digitais potencializadas pela inteligência artificial e como mitigá-las. Estratégias práticas para proteção de dados, sistemas e usuários.",
+        tags: ["IA", "Data","LGPD","segurança" ],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 2,
@@ -363,11 +361,11 @@ const talks = [
     },
     {
         id: 6,
-        time: "11:45 - 12:00",
-        title: "Descomplicando o frontend com vue.js",
-        speaker: "Bianca Cardoso",
-        description: "Vue.js, embora não tenha a popularidade do React, tem uma curva de aprendizado mais suave, sendo ideal para iniciantes. Esta palestra abordaremos termos técnicos de forma mais amigável e mostraremos como funcionalidades como reatividade (atualização automática da tela) e componentes (códigos reutilizáveis) tornam o desenvolvimento mais organizado e acessível.",
-        tags: ["Frontend", "Vue"],
+        time: "11:25 - 11:40",
+        title: "Título da palestra será definido pela palestrante",
+        speaker: "Bianca Pinto Cardoso",
+        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
+        tags: ["A definir"],
         block: "morning",
         isPlaceholder: true
     },
