@@ -209,16 +209,16 @@ const speakers = [
     {
         id: 15,
         name: "Karina Kaori",
-        role: "Robotics Engineer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Robotics", "Automation", "AI"],
+        role: "Software Engineer",
+        company: "Itaú Unibanco",
+        bio: "Karina Tanaka, engenheira de software no Itaú, com 7 anos de experiência em desenvolvimento backend e serviços financeiros.Formada em Análise e Desenvolvimento de Sistemas pela FATEC e um MBA em Data Science & Analytics pela USP ESALQ, meu propósito vai além do código. Sou apaixonada por tecnologia e motivada a auxiliar no desenvolvimento de carreira e incentivar a participação de mais mulheres na área de tecnologia, construindo pontes entre o conhecimento técnico e as soft skills essenciais para o sucesso profissional.",
+        expertise: ["COBOL", "CICS", "DB2", "JAVA", "PYTHON","AWS", "SERVIÇOS FINANCEIROS", "SOFT SKILLS"],
         social: {
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/karina-kaori-tanaka/",
             twitter: "#",
-            github: "#"
+            github: "https://github.com/karinakaori"
         },
-        talks: ["Automação e Robótica"]
+        talks: ["O mapa para a sua próxima conquista"]
     },
     {
         id: 16,
@@ -456,12 +456,12 @@ const talks = [
     {
         id: 15,
         time: "15:00 - 15:15",
-        title: "Título da palestra será definido pela palestrante",
+        title: "O mapa para a sua próxima conquista",
         speaker: "Karina Kaori",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        description: "Já se sentiu perdido sobre os próximos passos da sua carreira? Nesta palestra, vamos desmistificar o Plano de Desenvolvimento Individual (PDI) e mostrar como essa ferramenta pode ser o seu mapa para o sucesso. Vamos aprender, de forma prática, a estruturar um PDI para definir metas claras, identificar as habilidades necessárias (técnicas e soft skills) e, o mais importante, como usar esse plano para ter conversas estratégicas e impactantes com seus líderes. Prepare-se para conquistar o próximo nível, com planejamento e autoconfiança.",
+        tags: ["Carreira, Soft Skills, Planejamento Estratégico, Liderança, Networking"],
         block: "afternoon",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 16,
