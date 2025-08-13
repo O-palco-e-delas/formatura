@@ -241,7 +241,7 @@ Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `tal
  - [x] Karina Kaori     
  - [x] Keline     
  - [ ] Luciana Damasceno     
- - [ ] Rhaissa Barbosa     
+ - [x] Rhaissa Barbosa     
  - [ ] Helena     
  - [x] Juliana    Lisboa
 

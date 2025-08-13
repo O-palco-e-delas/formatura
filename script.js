@@ -250,16 +250,16 @@ const speakers = [
     {
         id: 18,
         name: "Rhaissa Barbosa",
-        role: "Green Tech Specialist",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["GreenTech", "Sustainability", "Energy"],
+        role: "Software Developer",
+        company: "Grupo Boticário",
+        bio: "Desenvolvedora de software há 3 anos no Grupo Boticário. No dia a dia, trabalho com desenvolvimento backend, principalmente com Typescript e Node.js. Sou uma nordestina que adora um bom desafio, especialmente aqueles que me forçam a pensar de forma criativa e a aprender mais.",
+        expertise: ["Backend", "Typscript", "Node", "Nest", "AWS" ],
         social: {
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/rhaissa-barbosa-vasconcelos/",
             twitter: "#",
-            github: "#"
+            github: "https://github.com/rhaissav?tab=achievements"
         },
-        talks: ["Sustentabilidade na Tecnologia"]
+        talks: ["POO com Teoria dos Conjuntos: Entendendo Objetos Sem Precisar Codar"]
     },
     {
         id: 19,
@@ -381,12 +381,12 @@ const talks = [
     {
         id: 8,
         time: "12:00 - 12:15",
-        title: "Título da palestra será definido pela palestrante",
-    speaker: "TBD",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-    tags: ["Ética", "IA", "Responsabilidade", "Impacto Social"],
+        title: "POO com Teoria dos Conjuntos: Entendendo Objetos Sem Precisar Codar",
+        speaker: "Rhaissa Vasconcelos",
+        description: "Aprender Programação Orientada a Objetos (POO) pode parecer assustador, com muitas regras e códigos. Esta palestra oferece um caminho mais suave, ideal para iniciantes ou para quem deseja solidificar os conceitos. Abordaremos os pilares da POO de forma visual, usando a Teoria dos Conjuntos, onde uma Classe é um 'conjunto' de objetos, um Objeto é um 'elemento' concreto, e a Herança é um 'subconjunto'. O objetivo é desmistificar a POO e construir uma base lógica forte, antes mesmo de escrever a primeira linha de código.",
+        tags: ["POO", "Fundamentos de Programação", "Iniciantes", "Abstração"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 9,
