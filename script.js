@@ -29,16 +29,16 @@ const speakers = [
     {
         id: 2,
         name: "Camila Marques de Oliveira",
-        role: "Frontend Developer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["React", "Vue.js", "JavaScript"],
+        role: "Data Engineer",
+        company: "iFood",
+        bio: "Camila Marques é Data Engineer no iFood, com trajetória iniciada em 2019 após se apaixonar por tecnologia na Campus Party Brasília. Atua ativamente na inclusão de mulheres na tecnologia por meio das comunidades PyLadies DF e Cadê as Minas?!. Nas horas vagas, gosta de explorar cafés, viajar, crochetar, compartilhar suas experiências e refletir sobre as nuances da vida.",
+        expertise: ["Engenharia de Dados", "Python", "SQL"],
         social: {
-            linkedin: "#",
+            linkedin: "https://www.linkedin.com/in/camilamarquesdeoliveira/",
             twitter: "#",
-            github: "#"
+            github: "https://github.com/camila-marquess"
         },
-        talks: ["Desenvolvimento Frontend Moderno"]
+        talks: ["Introdução ao Airflow: Como Orquestrar Pipelines de Dados"]
     },
     {
         id: 3,
@@ -506,12 +506,12 @@ const talks = [
     {
         id: 20,
         time: "16:30 - 16:45",
-        title: "Título da palestra será definido pela palestrante",
-    speaker: "TBD",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        title: "Introdução ao Airflow: Como Orquestrar Pipelines de Dados",
+    speaker: "Camila Marques",
+        description: "A palestra tem o objetivo de fazer uma introdução à ferramenta Apache Airflow, que é muito utilizada na área de dados para a orquestração e automatização de pipelines de dados. Vou explicar o que é o Airflow, o que é um pipeline de dados e, para tornar o conteúdo mais prático, mostrar um exemplo real de como a ferramenta funciona no dia a dia.",
+        tags: ["Airflow", "Engenharia de Dados"],
         block: "afternoon",
-        isPlaceholder: true
+        isPlaceholder: false
     }
 ];
 
