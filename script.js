@@ -111,16 +111,14 @@ const speakers = [
     {
         id: 8,
         name: "Marília Melo Favalesso",
-        role: "Mobile Developer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["iOS", "Android", "React Native"],
+        role: "Desenvolvedora de IA",
+        company: "Fundação CERTI",
+        bio: "Marília possui +10 anos de experiência em ciência de dados aplicada à saúde e meio-ambiente. Atuou em pesquisa, liderança e mentoria, além de ser engajada na disseminação de conhecimentos técnicos e científicos. Apaixonada por gatos, pizza e séries. MSc/PhD em ecoepidemiologia.",
+    expertise: ["Ciência de Dados", "Ecoepidemiologia", "IA", "Meio Ambiente", "Machine Learning"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/mariliafavalesso/"
         },
-        talks: ["Mobile Development: iOS e Android"]
+        talks: ["O rápido pode sair caro: entendendo os débitos invisíveis em IA"]
     },
     {
         id: 9,
@@ -389,12 +387,12 @@ const talks = [
     {
         id: 9,
         time: "12:15 - 12:30",
-        title: "Título da palestra será definido pela palestrante",
-    speaker: "TBD",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        title: "O rápido pode sair caro: entendendo os débitos invisíveis em IA",
+    speaker: "Marília Melo Favalesso",
+        description: "Sistemas de machine learning impulsionam avanços em diversos setores, mas carregam um passivo oculto: dívidas técnicas que se acumulam em camadas invisíveis, desde pipelines fragilmente acoplados até mudanças sistêmicas inesperadas. Nesta palestra, Marília Favalesso explora os principais tipos de dívida técnica em machine learning, incluindo as dimensões estruturais, algorítmicas e sociotécnicas, trazendo exemplos reais e insights de pesquisas recentes. Também serão discutidos frameworks emergentes para mapear essas dívidas e estratégias práticas de mitigação, essenciais para desenvolvedores e engenheiros que buscam robustez e sustentabilidade em sistemas inteligentes.",
+    tags: ["Dívida Técnica", "Machine Learning", "MLOps"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 10,
@@ -727,8 +725,6 @@ function smoothScroll() {
     
     console.log('✅ Navegação suave ativada para links internos');
 }
-
-// ============================================================================
 // ✨ ANIMAÇÕES DE ENTRADA (FADE-IN)
 // ============================================================================
 /*
