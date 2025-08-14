@@ -377,12 +377,12 @@ const talks = [
     {
         id: 8,
         time: "12:00 - 12:15",
-        title: "POO com Teoria dos Conjuntos: Entendendo Objetos Sem Precisar Codar",
-        speaker: "Rhaissa Vasconcelos",
-        description: "Aprender Programação Orientada a Objetos (POO) pode parecer assustador, com muitas regras e códigos. Esta palestra oferece um caminho mais suave, ideal para iniciantes ou para quem deseja solidificar os conceitos. Abordaremos os pilares da POO de forma visual, usando a Teoria dos Conjuntos, onde uma Classe é um 'conjunto' de objetos, um Objeto é um 'elemento' concreto, e a Herança é um 'subconjunto'. O objetivo é desmistificar a POO e construir uma base lógica forte, antes mesmo de escrever a primeira linha de código.",
+        title: "TBD",
+        speaker: "Keline",
+        description: "",
         tags: ["POO", "Fundamentos de Programação", "Iniciantes", "Abstração"],
         block: "morning",
-        isPlaceholder: false
+        isPlaceholder: true
     },
     {
         id: 9,
@@ -410,13 +410,13 @@ const talks = [
     // ========================================================================
     {
         id: 11,
-        time: "14:00 - 14:15",
-        title: "Título da palestra será definido pela palestrante",
-    speaker: "TBD",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        time: "14:15 - 14:30",
+        title: "POO com Teoria dos Conjuntos: Entendendo Objetos Sem Precisar Codar",
+    speaker: "Rhaissa Vasconcelos",
+    description: "Aprender Programação Orientada a Objetos (POO) pode parecer assustador, com muitas regras e códigos. Esta palestra oferece um caminho mais suave, ideal para iniciantes ou para quem deseja solidificar os conceitos. Abordaremos os pilares da POO de forma visual, usando a Teoria dos Conjuntos, onde uma Classe é um 'conjunto' de objetos, um Objeto é um 'elemento' concreto, e a Herança é um 'subconjunto'. O objetivo é desmistificar a POO e construir uma base lógica forte, antes mesmo de escrever a primeira linha de código.",
+        tags: ["POO", "Fundamentos de Programação", "Iniciantes", "Abstração"],
         block: "afternoon",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 12,
