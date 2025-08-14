@@ -125,7 +125,7 @@ const speakers = [
     {
         id: 9,
         name: "Ana Hashimoto",
-        role: "Coordenadora de Engengaria de Dados",
+        role: "Coordenadora de Engenharia de Dados",
         company: "Itaú Unibanco",
         bio: "Ana Hashimoto é Administradora, Especialista em Ciência de Dados e Big Data e possui certificações AWS e Scrum. Atualmente é Coordenadora de Engenharia de Dados no Itaú Unibanco, Instrutora de Engenharia de Dados na Alura e Mentora de Carreira. Além disso, em seu tempo livre, gosta de viajar e assistir séries.",
         expertise: ["Engenharia de Dados", "AWS", "FinOps de Dados", "Arquitetura de Dados", "Gestão de Pessoas", "Carreira"],
