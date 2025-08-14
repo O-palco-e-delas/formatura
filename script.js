@@ -125,16 +125,14 @@ const speakers = [
     {
         id: 9,
         name: "Ana Hashimoto",
-        role: "IoT Engineer",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["IoT", "Hardware", "Embedded"],
+        role: "Coordenadora de Engengaria de Dados",
+        company: "Itaú Unibanco",
+        bio: "Ana Hashimoto é Administradora, Especialista em Ciência de Dados e Big Data e possui certificações AWS e Scrum. Atualmente é Coordenadora de Engenharia de Dados no Itaú Unibanco, Instrutora de Engenharia de Dados na Alura e Mentora de Carreira. Além disso, em seu tempo livre, gosta de viajar e assistir séries.",
+        expertise: ["Engenharia de Dados", "AWS", "FinOps de Dados", "Arquitetura de Dados", "Gestão de Pessoas", "Carreira"],
         social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
+            linkedin: "https://www.linkedin.com/in/anahashimoto/"
         },
-        talks: ["Internet das Coisas (IoT)"]
+        talks: ["De Analista de BI a Coordenadora de Engenharia de Dados no maior banco da América Latina"]
     },
     {
         id: 10,
