@@ -472,10 +472,9 @@ const talks = [
     {
         id: 17,
         time: "15:45 - 16:00",
-        title: "Título da palestra será definido pela palestrante",
-    speaker: "TBD",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        title: "De Analista de BI a Coordenadora de Engenharia de Dados no maior banco da América Latina",
+    speaker: "Ana Hashimoto",
+        description: "",
         block: "afternoon",
         isPlaceholder: true
     },
