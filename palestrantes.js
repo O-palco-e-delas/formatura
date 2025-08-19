@@ -235,7 +235,7 @@ function updateSpeakersStats() {
     if (statNumbers.length >= 3) {
         statNumbers[0].textContent = totalSpeakers;
         statNumbers[1].textContent = `${uniqueExpertises.size}+`;
-        // Manter o terceiro como está (6h de conteúdo)
+        // Manter o terceiro como está (5h de conteúdo)
     }
 }
 

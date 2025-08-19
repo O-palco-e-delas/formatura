@@ -10,7 +10,7 @@ Cada seção está bem documentada para facilitar a compreensão e manutenção.
 // 👩‍💻 DADOS DAS PALESTRANTES
 // ============================================================================
 /*
-Array com informações de todas as 20 palestrantes do evento.
+Array com informações de todas as 17 palestrantes do evento.
 Cada palestrante tem: id, nome, cargo, empresa, bio, especialidades e redes sociais.
 */
 const speakers = [
@@ -177,20 +177,6 @@ const speakers = [
     },
     {
         id: 13,
-        name: "Jessica Alexandra",
-        role: "Agile Coach",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Agile", "Scrum", "Leadership"],
-        social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
-        },
-        talks: ["Metodologias Ágeis e Scrum"]
-    },
-    {
-        id: 14,
         name: "Jessica Borges",
         role: "Analista de Dados",
         company: "Deloitte",
@@ -204,7 +190,7 @@ const speakers = [
         talks: ["Entre o Código e a Consciência: Os Dilemas Éticos da IA"]
     },
     {
-        id: 15,
+        id: 14,
         name: "Karina Kaori",
         role: "Software Engineer",
         company: "Itaú Unibanco",
@@ -218,7 +204,7 @@ const speakers = [
         talks: ["O mapa para a sua próxima conquista"]
     },
     {
-        id: 16,
+        id: 15,
         name: "Keline Dantas",
         role: "Assessoria Pedagogica",
         company: "FioCruz",
@@ -229,22 +215,9 @@ const speakers = [
         },
         talks: ["Acrescentar"]
     },
+
     {
-        id: 17,
-        name: "Luciana Damasceno",
-        role: "Open Source Advocate",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Open Source", "Community", "Python"],
-        social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
-        },
-        talks: ["Open Source e Comunidades Tech"]
-    },
-    {
-        id: 18,
+        id: 16,
         name: "Rhaissa Barbosa",
         role: "Software Developer",
         company: "Grupo Boticário",
@@ -257,22 +230,9 @@ const speakers = [
         },
         talks: ["POO com Teoria dos Conjuntos: Entendendo Objetos Sem Precisar Codar"]
     },
+
     {
-        id: 19,
-        name: "Helena",
-        role: "Entrepreneur",
-        company: "A definir",
-        bio: "Informações serão atualizadas pela própria palestrante. Este é um placeholder para o projeto open source.",
-        expertise: ["Entrepreneurship", "Startups", "Business"],
-        social: {
-            linkedin: "#",
-            twitter: "#",
-            github: "#"
-        },
-        talks: ["Empreendedorismo Tech Feminino"]
-    },
-    {
-        id: 20,
+        id: 17,
         name: "Juliana Lisboa",
         role: "Product Manager",
         company: "Rio Endowment",
@@ -292,7 +252,7 @@ const speakers = [
 // 🎤 DADOS DAS PALESTRAS
 // ============================================================================
 /*
-Array com todas as 20 palestras do evento, divididas em 2 blocos:
+Array com todas as 17 palestras do evento, divididas em 2 blocos:
 - BLOCO 1 (Manhã): 10:10 - 12:40 (10 palestras)
 - BLOCO 2 (Tarde): 14:00 - 16:30 (10 palestras)
 
@@ -357,12 +317,12 @@ const talks = [
     {
         id: 6,
         time: "11:30 - 11:45",
-        title: "IA Generativa e a Ilusão de Pensamento: Implicações para o futuro do trabalho",
-        speaker: "Helena S",
+        title: "Por que você deveria ter um site pessoal em 2025?",
+        speaker: "Laryssa Rocha",
         description: "",
         tags: ["Inteligência Artificial", "Futuro do Trabalho"],
         block: "morning",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 7,
@@ -378,7 +338,7 @@ const talks = [
         id: 8,
         time: "12:00 - 12:15",
         title: "TBD",
-        speaker: "Keline",
+        speaker: "Keline Dantas",
         description: "",
         tags: ["POO", "Fundamentos de Programação", "Iniciantes", "Abstração"],
         block: "morning",
@@ -428,15 +388,15 @@ const talks = [
         block: "afternoon",
         isPlaceholder: false
     },
-    {
+        {
         id: 13,
         time: "14:45 - 15:00",
-        title: "Título da palestra será definido pela palestrante",
-    speaker: "TBD",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
+        title: "De Analista de BI a Coordenadora de Engenharia de Dados no maior banco da América Latina",
+    speaker: "Ana Hashimoto",
+        description: "Nesta palestra, Ana Hashimoto compartilhará sua trajetória de migração de carreira para Engenharia de Dados, os desafios enfrentados, aprendizados e dicas. Ela também abordará seu dia a dia, envolvendo gestão de pessoas e o pilar técnico, além de dicas de estudos e certificações.",
+        tags: ["dados", "carreira", "engenharia de dados", "gestão", "certificações"],
         block: "afternoon",
-        isPlaceholder: true
+        isPlaceholder: false
     },
     {
         id: 14,
@@ -444,7 +404,7 @@ const talks = [
         title: "Entre o Código e a Consciência: Os Dilemas Éticos da IA",
         speaker: "Jessica Borges",
         description: "Entre o Código e a Consciência traz reflexões sobre os dilemas éticos da IA, mostrando casos reais e como essa tecnologia impacta a sociedade.",
-        tags: ["A definir"],
+        tags: ["Ética", "IA", "Responsabilidade", "Impacto Social"],
         block: "afternoon",
         isPlaceholder: false
     },
@@ -454,7 +414,6 @@ const talks = [
         title: "O mapa para a sua próxima conquista",
         speaker: "Karina Kaori",
         description: "Já se sentiu perdido sobre os próximos passos da sua carreira? Nesta palestra, vamos desmistificar o Plano de Desenvolvimento Individual (PDI) e mostrar como essa ferramenta pode ser o seu mapa para o sucesso. Vamos aprender, de forma prática, a estruturar um PDI para definir metas claras, identificar as habilidades necessárias (técnicas e soft skills) e, o mais importante, como usar esse plano para ter conversas estratégicas e impactantes com seus líderes. Prepare-se para conquistar o próximo nível, com planejamento e autoconfiança.",
-    // Ajuste: separar string única em múltiplas tags semânticas
     tags: ["Carreira", "Soft Skills", "Planejamento Estratégico", "Liderança", "Networking"],
         block: "afternoon",
         isPlaceholder: false
@@ -462,45 +421,15 @@ const talks = [
     {
         id: 16,
         time: "15:30 - 15:45",
-        title: "Título da palestra será definido pela palestrante",
-    speaker: "TBD",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "afternoon",
-        isPlaceholder: true
-    },
-    {
-        id: 17,
-        time: "15:45 - 16:00",
-        title: "De Analista de BI a Coordenadora de Engenharia de Dados no maior banco da América Latina",
-    speaker: "Ana Hashimoto",
-        description: "",
-        block: "afternoon",
-        isPlaceholder: true
-    },
-    {
-        id: 18,
-        time: "16:00 - 16:15",
-        title: "Título da palestra será definido pela palestrante",
-    speaker: "TBD",
-        description: "A palestrante adicionará a descrição de sua apresentação. Este é um placeholder do projeto open source para que cada participante possa personalizar sua palestra.",
-        tags: ["A definir"],
-        block: "afternoon",
-        isPlaceholder: true
-    },
-    {
-        id: 19,
-        time: "16:15 - 16:30",
-        title: "Por que você deveria ter um site pessoal em 2025?",
-    speaker: "Laryssa Rocha",
-        description: "Ter um site pessoal não precisa ser só sobre trabalho ou currículo: pode ser seu playground digital, um espaço para experimentar ideias, aprender coisas novas, compartilhar o que você gosta com pessoas que compartilham os mesmos interesses. Nesta palestra vamos falar sobre como criar seu cantinho na internet, e como isso pode te ajudar a assumir o controle dos seus dados, transformar aprendizado em conteúdo e, de quebra, se divertir no processo.",
-        tags: ["frontend", "aprendizado contínuo", "presença digital"],
+        title: "Introdução ao Airflow: Como Orquestrar Pipelines de Dados",
+    speaker: "Camila Marques",
+        description: "Na talk “De Analista de BI a Coordenadora de Engenharia de Dados no maior banco da América Latina” ela contará um pouco sobre sua trajetória de migração de carreira para Engenharia de Dados, desafios enfrentados, aprendizados e dicas. Além disso, falará sobre o seu dia a dia, envolvendo gestão de pessoas e também o pilar técnico e também dicas de estudos e certificações.",
         block: "afternoon",
         isPlaceholder: false
     },
     {
-        id: 20,
-        time: "16:30 - 16:45",
+        id: 17,
+        time: "15:30 - 16:00",
         title: "Introdução ao Airflow: Como Orquestrar Pipelines de Dados",
     speaker: "Camila Marques",
         description: "A palestra tem o objetivo de fazer uma introdução à ferramenta Apache Airflow, que é muito utilizada na área de dados para a orquestração e automatização de pipelines de dados. Vou explicar o que é o Airflow, o que é um pipeline de dados e, para tornar o conteúdo mais prático, mostrar um exemplo real de como a ferramenta funciona no dia a dia.",
@@ -522,7 +451,7 @@ const scheduleItems = [
     { time: "10:15", title: "Bloco 1 - Manhã", description: "10 palestras técnicas (15 min cada)" },
     { time: "12:45", title: "Encerramento Bloco 1", description: "Encerramento do bloco da manhã" },
     { time: "14:00", title: "Bloco 2 - Tarde", description: "10 palestras técnicas (15 min cada)" },
-    { time: "16:45", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
+    { time: "16:00", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
 ];
 
 /*
@@ -1181,8 +1110,8 @@ function printSchedule() {
 Este arquivo contém todas as funcionalidades do site "O Palco é Delas":
 
 📊 DADOS:
-- 20 palestrantes com informações completas
-- 20 palestras divididas em 2 blocos (manhã e tarde)
+- 17 palestrantes com informações completas
+- 17  palestras divididas em 2 blocos (manhã e tarde)
 - Agenda completa do evento
 - Sistema de placeholders para personalização
 
