@@ -250,8 +250,8 @@ const speakers = [
 // ============================================================================
 /*
 Array com todas as 17 palestras do evento, divididas em 2 blocos:
-- BLOCO 1 (Manhã): 10:10 - 12:40 (10 palestras)
-- BLOCO 2 (Tarde): 14:00 - 16:30 (7 palestras)
+- BLOCO 1 (Manhã): 10:15 - 12:45 (10 palestras)
+- BLOCO 2 (Tarde): 14:15 - 16:00 (7 palestras)
 
 IMPORTANTE: Todas as palestras começam como placeholders (isPlaceholder: true)
 para que cada palestrante possa personalizar sua apresentação.
@@ -417,7 +417,7 @@ const talks = [
     },
     {
         id: 16,
-        time: "15:30 - 16:00",
+        time: "15:30 - 15:45",
         title: "Introdução ao Airflow: Como Orquestrar Pipelines de Dados",
         speaker: "Camila Marques",
         description: "A palestra tem o objetivo de fazer uma introdução à ferramenta Apache Airflow, que é muito utilizada na área de dados para a orquestração e automatização de pipelines de dados. Vou explicar o que é o Airflow, o que é um pipeline de dados e, para tornar o conteúdo mais prático, mostrar um exemplo real de como a ferramenta funciona no dia a dia.",
@@ -427,7 +427,7 @@ const talks = [
     },
     {
         id: 17,
-        time: "16:00 - 16:15",
+        time: "15:45 - 16:00",
         title: "Segurança cibernética na era da Inteligência Artificial",
         speaker: "Midian Brandão",
         description: "Uma análise sobre os principais desafios e oportunidades de segurança cibernética na era da IA, abordando tanto as vulnerabilidades introduzidas por sistemas de IA quanto as aplicações de inteligência artificial para fortalecer a segurança digital.",
@@ -445,9 +445,9 @@ Cronograma completo do evento desde o credenciamento até o encerramento.
 Inclui horários de abertura, blocos de palestras, almoço e cerimônia final.
 */
 const scheduleItems = [
-    { time: "10:00", title: "Abertura", description: "Cerimônia de abertura e boas-vindas (10 minutos)" },
+    { time: "10:00", title: "Abertura", description: "Cerimônia de abertura e boas-vindas (15 minutos)" },
     { time: "10:15", title: "Bloco 1 - Manhã", description: "10 palestras técnicas (15 min cada)" },
     { time: "12:45", title: "Encerramento Bloco 1", description: "Encerramento do bloco da manhã" },
-    { time: "14:00", title: "Bloco 2 - Tarde", description: "7 palestras técnicas (15 min cada)" },
+    { time: "14:15", title: "Bloco 2 - Tarde", description: "7 palestras técnicas (15 min cada)" },
     { time: "16:00", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
 ];
