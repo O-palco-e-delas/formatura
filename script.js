@@ -451,3 +451,86 @@ const scheduleItems = [
     { time: "14:15", title: "Bloco 2 - Tarde", description: "7 palestras técnicas (15 min cada)" },
     { time: "16:00", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
 ];
+
+// ============================================================================
+// 📋 FUNÇÃO DE RENDERIZAÇÃO DA AGENDA
+// ============================================================================
+/*
+Função para renderizar a agenda do evento com blocos e timeline.
+*/
+function renderSchedule() {
+    const container = document.getElementById('schedule-container');
+    
+    // Verificar se o elemento existe na página atual
+    if (!container) {
+        console.log('Container schedule-container não encontrado nesta página');
+        return;
+    }
+
+    const morningTalks = talks.filter(talk => talk.block === 'morning');
+    const afternoonTalks = talks.filter(talk => talk.block === 'afternoon');
+
+    container.innerHTML = `
+        <div class="schedule-blocks">
+            <div class="schedule-block">
+                <div class="block-header">
+                    <div class="block-title">Bloco 1 - Manhã</div>
+                    <div class="block-time">10:15 - 12:45</div>
+                </div>
+                <div class="block-talks">
+                    ${morningTalks.map(talk => `
+                        <div class="block-talk">
+                            <div class="talk-time-small">${talk.time.split(' - ')[0]}</div>
+                            <div class="talk-details">
+                                <div class="talk-title-small">${talk.title}</div>
+                                <div class="talk-speaker-small">${talk.speaker}</div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+            
+            <div class="schedule-block">
+                <div class="block-header">
+                    <div class="block-title">Bloco 2 - Tarde</div>
+                    <div class="block-time">14:15 - 16:00</div>
+                </div>
+                <div class="block-talks">
+                    ${afternoonTalks.map(talk => `
+                        <div class="block-talk">
+                            <div class="talk-time-small">${talk.time.split(' - ')[0]}</div>
+                            <div class="talk-details">
+                                <div class="talk-title-small">${talk.title}</div>
+                                <div class="talk-speaker-small">${talk.speaker}</div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        </div>
+        
+        <div class="timeline">
+            ${scheduleItems.map(item => `
+                <div class="timeline-item fade-in">
+                    <div class="timeline-time">${item.time}</div>
+                    <h4>${item.title}</h4>
+                    <p>${item.description}</p>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
+
+// ============================================================================
+// 🚀 INICIALIZAÇÃO PRINCIPAL
+// ============================================================================
+/*
+Função executada quando o DOM está completamente carregado.
+Chama todas as funções necessárias para inicializar o site.
+*/
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('🎉 Iniciando site "O Palco é Delas"...');
+    
+    // Renderizar conteúdo principal
+    renderSchedule();
+});
