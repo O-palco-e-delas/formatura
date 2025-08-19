@@ -22,7 +22,7 @@ Mulheres em tecnologia que:
 
 ## 🗣️ Palestrantes e Palestras
 
-O evento de formatura conta com 20 palestrantes reais do programa "O Palco é Delas", organizadas em 2 blocos:
+O evento de formatura conta com 17 palestrantes reais do programa "O Palco é Delas", organizadas em 2 blocos:
 
 ### 🌅 BLOCO 1 - MANHÃ (10:00 - 13:00)
 
@@ -43,7 +43,7 @@ Guia completo: [`GUIA-CONTRIBUICAO.md`](GUIA-CONTRIBUICAO.md)
 ## ℹ️ Informações do Evento
 
 - **Data**: Sábado, 23 de Agosto de 2025
-- **Horário**: 10:00 - 17:00 (com intervalo para almoço: 13:00 - 14:00)
+- **Horário**: 10:00 - 16:00 (com intervalo para almoço: 13:00 - 14:00)
 - **Local**: ONLINE
 - **Formato**: 2 blocos com 10 palestras de 15 minutos cada
 
