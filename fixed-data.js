@@ -424,6 +424,16 @@ const talks = [
         tags: ["Airflow", "Engenharia de Dados", "Carreira"],
         block: "afternoon",
         isPlaceholder: false
+    },
+    {
+        id: 17,
+        time: "16:00 - 16:15",
+        title: "Segurança cibernética na era da Inteligência Artificial",
+        speaker: "Midian Brandão",
+        description: "Uma análise sobre os principais desafios e oportunidades de segurança cibernética na era da IA, abordando tanto as vulnerabilidades introduzidas por sistemas de IA quanto as aplicações de inteligência artificial para fortalecer a segurança digital.",
+        tags: ["IA", "Segurança", "Machine Learning"],
+        block: "afternoon",
+        isPlaceholder: false
     }
 ];
 
