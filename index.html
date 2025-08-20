@@ -89,7 +89,7 @@
             <div class="stats-container">
 
                 <div class="stat-item">
-                    <span class="stat-number">20</span>
+                    <span class="stat-number">17</span>
                     <div class="stat-label">Palestras</div>
                 </div>
                 <div class="stat-item">
@@ -103,9 +103,9 @@
             </div>
             
             <div class="timeline" id="schedule-container">
+            </div>
         </div>
     </section>
-
 
     
 
@@ -171,6 +171,13 @@
                 menu.classList.toggle('active');
             });
         }
+        
+        // Renderizar agenda quando a página for carregada
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof renderScheduleOnHomepage === 'function') {
+                renderScheduleOnHomepage();
+            }
+        });
         // Destacar link ativo por rolagem
         const sectionLinks = [...document.querySelectorAll('[data-nav-section]')];
         const observer = new IntersectionObserver((entries)=>{

@@ -417,11 +417,21 @@ const talks = [
     },
     {
         id: 16,
-        time: "15:30 - 16:00",
+        time: "15:30 - 15:45",
         title: "Introdução ao Airflow: Como Orquestrar Pipelines de Dados",
         speaker: "Camila Marques",
         description: "A palestra tem o objetivo de fazer uma introdução à ferramenta Apache Airflow, que é muito utilizada na área de dados para a orquestração e automatização de pipelines de dados. Vou explicar o que é o Airflow, o que é um pipeline de dados e, para tornar o conteúdo mais prático, mostrar um exemplo real de como a ferramenta funciona no dia a dia.",
         tags: ["Airflow", "Engenharia de Dados", "Carreira"],
+        block: "afternoon",
+        isPlaceholder: false
+    },
+    {
+        id: 17,
+        time: "15:45 - 16:00",
+        title: "Segurança cibernética na era da Inteligência Artificial",
+        speaker: "Midian Brandão",
+        description: "Esta palestra explora os desafios e soluções de segurança cibernética no contexto da crescente adoção de inteligência artificial. Discutiremos como a IA está transformando o panorama de ameaças digitais, criando novos vetores de ataque e, ao mesmo tempo, oferecendo ferramentas inovadoras para defesa. Abordaremos técnicas de proteção de dados sensíveis, detecção de anomalias através de machine learning e estratégias para mitigar riscos em sistemas alimentados por IA.",
+        tags: ["Segurança Cibernética", "IA", "Proteção de Dados", "Machine Learning"],
         block: "afternoon",
         isPlaceholder: false
     }
@@ -438,6 +448,6 @@ const scheduleItems = [
     { time: "10:00", title: "Abertura", description: "Cerimônia de abertura e boas-vindas (10 minutos)" },
     { time: "10:15", title: "Bloco 1 - Manhã", description: "10 palestras técnicas (15 min cada)" },
     { time: "12:45", title: "Encerramento Bloco 1", description: "Encerramento do bloco da manhã" },
-    { time: "14:00", title: "Bloco 2 - Tarde", description: "7 palestras técnicas (15 min cada)" },
+    { time: "14:00", title: "Bloco 2 - Tarde", description: "8 palestras técnicas (15 min cada)" },
     { time: "16:00", title: "Encerramento", description: "Cerimônia de formatura e networking final" }
 ];
