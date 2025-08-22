@@ -226,7 +226,7 @@ Marque `[x]` quando a palestrante já tiver: (1) personalizado `speakers` + `tal
 
 > Dica: Você pode copiar este bloco para a descrição de uma Issue de acompanhamento no GitHub e ir marcando conforme os PRs forem sendo mergeados.
  - [x] Midian Brandão 
- - [x] Camila Marques de Oliveira 
+ - [ ] ~~Camila Marques de Oliveira~~ (cancelado)
  - [x] Gabriela Matias 
  - [x] Laryssa    Viana Rocha     
  - [x] Elizabeth     Cristina de Souza     

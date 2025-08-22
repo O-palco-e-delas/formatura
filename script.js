@@ -27,20 +27,6 @@ const speakers = [
         talks: ["Segurança cibernética na era da Inteligência Artificial"]
     },
     {
-        id: 2,
-        name: "Camila Marques de Oliveira",
-        role: "Data Engineer",
-        company: "iFood",
-        bio: "Camila Marques é Data Engineer no iFood, com trajetória iniciada em 2019 após se apaixonar por tecnologia na Campus Party Brasília. Atua ativamente na inclusão de mulheres na tecnologia por meio das comunidades PyLadies DF e Cadê as Minas?!. Nas horas vagas, gosta de explorar cafés, viajar, crochetar, compartilhar suas experiências e refletir sobre as nuances da vida.",
-        expertise: ["Engenharia de Dados", "Python", "SQL"],
-        social: {
-            linkedin: "https://www.linkedin.com/in/camilamarquesdeoliveira/",
-            twitter: "#",
-            github: "https://github.com/camila-marquess"
-        },
-        talks: ["Introdução ao Airflow: Como Orquestrar Pipelines de Dados"]
-    },
-    {
         id: 3,
         name: "Gabriela Matias",
         role: "Gameplay Programmer",
@@ -53,20 +39,6 @@ const speakers = [
             github: "https://github.com/jasbrela"
         },
         talks: ["Level 1: Primeiros passos na área de Games"]
-    },
-    {
-        id: 4,
-        name: "Laryssa Rocha",
-        role: "Frontend Engineer",
-        company: "Dexian",
-        bio: "Laryssa é engenheira de software front-end há mais de 10 anos. Já atuou como líder técnica, é mentora e ama aprender e compartilhar conhecimento. Acredita na tecnologia como ferramenta de transformação social. Ela ama cachorrinhos, é ceramista amadora e gamer nas horas vagas 🪴 🐶 🎮",
-        expertise: ["Frontend", "React", "Javascript"],
-        social: {
-            linkedin: "https://www.linkedin.com/in/laryro/",
-            twitter: "#",
-            github: "https://github.com/laryro"
-        },
-        talks: ["Por que você deveria ter um site pessoal em 2025?"]
     },
     {
         id: 5,

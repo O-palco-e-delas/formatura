@@ -6,31 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (typeof talks !== 'undefined') {
             console.log('Success: Talks array found with', talks.length, 'items');
             
-            // Fix the missing tags property in Camila's talk (id: 16)
-            for (let i = 0; i < talks.length; i++) {
-                if (talks[i].id === 16 && !talks[i].tags) {
-                    console.log('Fixing missing tags for talk ID 16');
-                    talks[i].tags = ["Airflow", "Engenharia de Dados", "Carreira"];
-                }
-            }
-            
-            // Remove duplicate talk (keeping only one version of Camila's talk)
-            if (talks.length === 17) {
-                const uniqueTalks = talks.filter((talk, index) => {
-                    // Check for duplicate entries
-                    if (talk.id === 16 || talk.id === 17) {
-                        if (talk.speaker === "Camila Marques" && talk.title === "Introdução ao Airflow: Como Orquestrar Pipelines de Dados") {
-                            // Keep only one instance (the first one found)
-                            return index === talks.findIndex(t => t.speaker === "Camila Marques" && 
-                                                              t.title === "Introdução ao Airflow: Como Orquestrar Pipelines de Dados");
-                        }
-                    }
-                    return true;
-                });
-                
-                console.log('Removed duplicates, now have', uniqueTalks.length, 'talks');
-                window.talks = uniqueTalks;
-            }
+            // Código de correção para palestras removido - Camila Marques e Laryssa Rocha não fazem mais parte do evento
             
             // Now render the talks
             if (typeof renderTalksPage === 'function') {

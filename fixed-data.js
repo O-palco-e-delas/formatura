@@ -414,26 +414,6 @@ const talks = [
         tags: ["Carreira", "Soft Skills", "Planejamento Estratégico", "Liderança", "Networking"],
         block: "afternoon",
         isPlaceholder: false
-    },
-    {
-        id: 16,
-        time: "15:30 - 15:45",
-        title: "Introdução ao Airflow: Como Orquestrar Pipelines de Dados",
-        speaker: "Camila Marques",
-        description: "A palestra tem o objetivo de fazer uma introdução à ferramenta Apache Airflow, que é muito utilizada na área de dados para a orquestração e automatização de pipelines de dados. Vou explicar o que é o Airflow, o que é um pipeline de dados e, para tornar o conteúdo mais prático, mostrar um exemplo real de como a ferramenta funciona no dia a dia.",
-        tags: ["Airflow", "Engenharia de Dados", "Carreira"],
-        block: "afternoon",
-        isPlaceholder: false
-    },
-    {
-        id: 17,
-        time: "15:45 - 16:00",
-        title: "Por que você deveria ter um site pessoal em 2025?",
-        speaker: "Laryssa Rocha",
-        description: "",
-        tags: ["Inteligência Artificial", "Futuro do Trabalho"],
-        block: "afternoon",
-        isPlaceholder: false
     }
 ];
 
