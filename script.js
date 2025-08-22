@@ -208,12 +208,12 @@ const speakers = [
         name: "Keline Dantas",
         role: "Assessoria Pedagogica",
         company: "FioCruz",
-        bio: "Acrescentar.",
+        bio: "Keline Dantas está na assessoria Pedagógica e no Coletivo de Acessibilidade da FIOCRUZ Brasília, começou sua transição de carreira para a área da TI em 2019 após conhecer a comunidade Py Ladies Df no evento da Django Girls. Atua ativamente na inclusão das pessoas com deficiência, bem como de mulheres na tecnologia por meio das comunidades PyLadies DF. Divide seu tempo entre o trabalho e o voluntariado em projetos sociais, nas horas vagas aprecia o universo dos vinhos e se alegria de compartilhar momentos com amigos, acreditando que é da soma desses detalhes que nascem grandes transformações.",
         expertise: ["Inclusão", "Acessibilidade", "Letramento Digital", "Cibersegurança"],
         social: {
             linkedin: "https://www.linkedin.com/in/keline-santana-pcd-45631021/",
         },
-        talks: ["Acrescentar"]
+        talks: ["Além do Código: O Papel do Profissional de TI na Inclusão e Pessoas com Deficiência"]
     },
     {
         id: 16,
@@ -334,10 +334,10 @@ const talks = [
     {
         id: 8,
         time: "12:00 - 12:15",
-        title: "TBD",
+        title: "Além do Código: O Papel do Profissional de TI na Inclusão e Pessoas com Deficiência",
         speaker: "Keline Dantas",
-        description: "",
-        tags: ["POO", "Fundamentos de Programação", "Iniciantes", "Abstração"],
+        description: "A palestra procura destacar a importância do profissional de TI na promoção da acessibilidade e da inclusão digital. Serão apresentados desafios enfrentados pelas pessoas com deficiência no uso de tecnologias, impacto positivo que soluções acessíveis podem gerar em áreas como educação, trabalho e participação social. Serão apresentados exemplos práticos de tecnologias assistivas, boas práticas de desenvolvimento acessível.",
+        tags: ["Acessibilidade"],
         block: "morning",
         isPlaceholder: true
     },
