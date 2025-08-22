@@ -314,10 +314,10 @@ const talks = [
     {
         id: 6,
         time: "11:30 - 11:45",
-        title: "Por que você deveria ter um site pessoal em 2025?",
-        speaker: "Laryssa Rocha",
-        description: "",
-        tags: ["Inteligência Artificial", "Futuro do Trabalho"],
+        title: "POO com Teoria dos Conjuntos: Entendendo Objetos Sem Precisar Codar",
+        speaker: "Rhaissa Vasconcelos",
+        description: "Aprender Programação Orientada a Objetos (POO) pode parecer assustador, com muitas regras e códigos. Esta palestra oferece um caminho mais suave, ideal para iniciantes ou para quem deseja solidificar os conceitos. Abordaremos os pilares da POO de forma visual, usando a Teoria dos Conjuntos, onde uma Classe é um 'conjunto' de objetos, um Objeto é um 'elemento' concreto, e a Herança é um 'subconjunto'. O objetivo é desmistificar a POO e construir uma base lógica forte, antes mesmo de escrever a primeira linha de código.",
+        tags: ["POO", "Fundamentos de Programação", "Iniciantes", "Abstração"],
         block: "morning",
         isPlaceholder: false
     },
@@ -368,10 +368,10 @@ const talks = [
     {
         id: 11,
         time: "14:15 - 14:30",
-        title: "POO com Teoria dos Conjuntos: Entendendo Objetos Sem Precisar Codar",
-        speaker: "Rhaissa Vasconcelos",
-        description: "Aprender Programação Orientada a Objetos (POO) pode parecer assustador, com muitas regras e códigos. Esta palestra oferece um caminho mais suave, ideal para iniciantes ou para quem deseja solidificar os conceitos. Abordaremos os pilares da POO de forma visual, usando a Teoria dos Conjuntos, onde uma Classe é um 'conjunto' de objetos, um Objeto é um 'elemento' concreto, e a Herança é um 'subconjunto'. O objetivo é desmistificar a POO e construir uma base lógica forte, antes mesmo de escrever a primeira linha de código.",
-        tags: ["POO", "Fundamentos de Programação", "Iniciantes", "Abstração"],
+        title: "Segurança cibernética na era da Inteligência Artificial",
+        speaker: "Midian Brandão",
+        description: "Esta palestra explora os desafios e soluções de segurança cibernética no contexto da crescente adoção de inteligência artificial. Discutiremos como a IA está transformando o panorama de ameaças digitais, criando novos vetores de ataque e, ao mesmo tempo, oferecendo ferramentas inovadoras para defesa. Abordaremos técnicas de proteção de dados sensíveis, detecção de anomalias através de machine learning e estratégias para mitigar riscos em sistemas alimentados por IA.",
+        tags: ["Segurança Cibernética", "IA", "Proteção de Dados", "Machine Learning"],
         block: "afternoon",
         isPlaceholder: false
     },
@@ -412,26 +412,6 @@ const talks = [
         speaker: "Karina Kaori",
         description: "Já se sentiu perdido sobre os próximos passos da sua carreira? Nesta palestra, vamos desmistificar o Plano de Desenvolvimento Individual (PDI) e mostrar como essa ferramenta pode ser o seu mapa para o sucesso. Vamos aprender, de forma prática, a estruturar um PDI para definir metas claras, identificar as habilidades necessárias (técnicas e soft skills) e, o mais importante, como usar esse plano para ter conversas estratégicas e impactantes com seus líderes. Prepare-se para conquistar o próximo nível, com planejamento e autoconfiança.",
         tags: ["Carreira", "Soft Skills", "Planejamento Estratégico", "Liderança", "Networking"],
-        block: "afternoon",
-        isPlaceholder: false
-    },
-    {
-        id: 16,
-        time: "15:30 - 15:45",
-        title: "Introdução ao Airflow: Como Orquestrar Pipelines de Dados",
-        speaker: "Camila Marques",
-        description: "A palestra tem o objetivo de fazer uma introdução à ferramenta Apache Airflow, que é muito utilizada na área de dados para a orquestração e automatização de pipelines de dados. Vou explicar o que é o Airflow, o que é um pipeline de dados e, para tornar o conteúdo mais prático, mostrar um exemplo real de como a ferramenta funciona no dia a dia.",
-        tags: ["Airflow", "Engenharia de Dados", "Carreira"],
-        block: "afternoon",
-        isPlaceholder: false
-    },
-    {
-        id: 17,
-        time: "15:45 - 16:00",
-        title: "Segurança cibernética na era da Inteligência Artificial",
-        speaker: "Midian Brandão",
-        description: "Esta palestra explora os desafios e soluções de segurança cibernética no contexto da crescente adoção de inteligência artificial. Discutiremos como a IA está transformando o panorama de ameaças digitais, criando novos vetores de ataque e, ao mesmo tempo, oferecendo ferramentas inovadoras para defesa. Abordaremos técnicas de proteção de dados sensíveis, detecção de anomalias através de machine learning e estratégias para mitigar riscos em sistemas alimentados por IA.",
-        tags: ["Segurança Cibernética", "IA", "Proteção de Dados", "Machine Learning"],
         block: "afternoon",
         isPlaceholder: false
     }
